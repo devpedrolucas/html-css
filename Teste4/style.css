@@ -1,0 +1,40 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100;200;400;500;700;800&display=swap');
+
+body{
+    background-image: linear-gradient(to right, #0378A6 , #A0B9D9);
+    font-family: 'Martian Mono', monospace;;
+}
+
+h1{
+    background-color: #f2b705;
+    font-style: bold;
+    padding: 20px;
+    margin: auto;
+    width: 400px;
+    text-align: center;
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px #06070836;
+}
+
+h1:hover{
+    color: rgb(24, 14, 53);
+    background-color: #A68B03;
+}
+
+a {
+    text-decoration: none;
+    color: #A68B03;
+}
+
+a:hover{
+    color: #F29F05;
+}
+
+.especial{
+    color: brown;
+}
+
+.especial:hover{
+    color: aquamarine;
+}

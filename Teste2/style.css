@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+/* Tudo em HTML que é ID em CSS é = #
+    Tudo em HTML que é Class em CSS é = .
+    e * significa configuracao global em css
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,500;0,600;0,700;1,100&display=swap');
+
+body{
+    background-image: linear-gradient( to left, #A6937C, #8C745E );
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    background-color: #E4F1F2;
+    border-radius: 50px;
+    padding: 30px;
+    width: 700px;
+    margin: auto;
+}
+
+h1#titulo {
+    text-align: center;
+    background-color: #f2c58d73;
+    border-radius: 10px;
+    padding: 15px;
+    margin: auto;
+    color: #141F26;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: bold;
+    box-shadow: 6px 3px 28px 3px rgba(36,19,19,0.62);
+}
+
+.p1{
+    text-align: center;
+    font-size: 20px;
+}
+
+.p2{
+    text-align: justify;
+    color:darkslategrey
+}
+
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+    text-align: justify;
+    color: #141F26;
+}
+
+div{
+    display: inline-block;
+    background-color: #f2c48d;
+    font-size: 20px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 15px;
+}   
+div:hover{
+    background-color: #A6937C;
+}
+
+div:hover > ul{
+    display: block;
+    color: #E4F1F2;
+}
+
+div > ul{
+    display: none;
+}
+div >p {
+    display: none;
+}
+
+.menu{
+    
+}
