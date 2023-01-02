@@ -9,7 +9,7 @@
 body{
     background-color: #3D3E37;
     font-family: 'Roboto', sans-serif;
-    height: 100vh;
+    margin-top: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
