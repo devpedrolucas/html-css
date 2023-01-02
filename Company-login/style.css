@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;;
+}
+
+body{
+    background-color: #3D3E37;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login{
+    background-color: #D9D9D9;
+    box-sizing: border-box;
+    width: 320px;
+    height: 420px;
+    border-radius: 16px;
+    position: absolute;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.cabecalho > h1{
+    font-family: 'Secular One', sans-serif;
+    color:#03203D;
+    height: 43px;
+    margin-left: 13px;
+    margin-bottom: 20px;
+}
+
+.forms{
+    width: 310px;
+    margin: auto;
+    text-align: center;
+}
+
+.forms > input{
+    width: 248px;
+    height: 40px;
+    padding-left: 14px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    font-style: italic;
+    text-align:left;
+}
+
+.forms > h3 {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: justify;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.forms > button {
+    background-color: #4A4F59;
+    color: #EAEAEA;
+    width: 215px;
+    height: 55px;
+    margin: auto;
+    margin-top: 35px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+}
+
+.forms > button:hover{
+    background-color: #03203D;;
+}
